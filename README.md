@@ -11,14 +11,14 @@ Text Classification by using Convolutional Neural Network (CNN) algorithm
 
 For this present work consists of 4 sections.
 
-## Part I: Data Retrieval <br>
+### Part I: Data Retrieval <br>
 &emsp;&emsp; Patient comments were retrieved from [HonestDocs](https://www.honestdocs.co). The data included only top 3 well-known hospitals in Thailand such as Ramathibodi, Siriraj, and Chulalonkorn hospital. Then the comments were translated from Thai to English language by using [Translation Client Libraries for the Cloud Translation API of Google APIs](https://cloud.google.com/translate/docs/quickstart-client-libraries)
 
-## Part II: Data Preprocessing <br>
+### Part II: Data Preprocessing <br>
 &emsp;&emsp; The translated comments were cleaned and transform as vectorized features.
 
-## Part III: Modeling & Evaluation <br>
+### Part III: Modeling & Evaluation <br>
 &emsp;&emsp; Tuning hyperparameters, model performance evaluation, eror analysis have been done in this section.
 
-## Part IV: Sentiment analysis and Suggestion <br>
+### Part IV: Sentiment analysis and Suggestion <br>
 &emsp;&emsp; Apply the optimum model to classify whole data set of the patient comments into positive and negative issues. Then analyse and discuss with colleagues who built other models to give appropriate suggestion for the hospitals.
