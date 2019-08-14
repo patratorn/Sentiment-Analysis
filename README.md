@@ -9,7 +9,7 @@ Text Classification by using Convolutional Neural Network (CNN) algorithm
 
 &emsp;&emsp; Principle concept of CNN for natural language processing (NLP) is using of sliding filter window over vectorized features. Basically, a customer comment consists of one or more sentences which commonly be converted by word vectorization resulting as 1-dimensional vectorized features. Therefore, width of the filter is commonly equal to 1 due to the 1-dimension whereas height is vary between 2-5 which is similar to [n-grams](https://en.wikipedia.org/wiki/N-gram) modeling in NLP. For example, if stride is equal to 1 and filter (kernel) size is 1x2, sliding window of CNN algorithm will act as bi-gram modeling in NLP. Moreover, advantages of using CNN for text classification are: _1) fast learning compared to other algorithm; and 2) a small number of hyperparameters used for tuning.
 
-For this present work consists of 4 sections.
+&emsp;&emsp; The present work consists of 4 sections which are uploaded as .ipynb files.
 
 ### Part I: Data Retrieval <br>
 &emsp;&emsp; Patient comments were retrieved from [HonestDocs](https://www.honestdocs.co). The data included only top 3 well-known hospitals in Thailand such as Ramathibodi, Siriraj, and Chulalonkorn hospital. Then the comments were translated from Thai to English language by using [Translation Client Libraries for the Cloud Translation API of Google APIs](https://cloud.google.com/translate/docs/quickstart-client-libraries)
