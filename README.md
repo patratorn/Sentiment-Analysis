@@ -22,3 +22,6 @@ Text Classification by using Convolutional Neural Network (CNN) algorithm
 
 ### Part IV: Sentiment analysis and Suggestion <br>
 &emsp;&emsp; Apply the optimum model to classify whole data set of the patient comments into positive and negative issues. Then analyse and discuss with colleagues who built other models to give appropriate suggestion for the hospitals.
+
+<br></br>
+__Contributors:__ [ponthongmak](https://github.com/ponthongmak) , [petchpanu](https://github.com/petchpanu), [perlestot](https://github.com/perlestot)
