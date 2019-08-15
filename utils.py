@@ -12,7 +12,7 @@ from sklearn.metrics import confusion_matrix, roc_curve, roc_auc_score, precisio
 def load_np(data_folder, file_name_list):
     files = {}
     for file_name in file_name_list:
-        files[file_name] = np.load(str(data_folder)+str(file_name)+'.npy')
+        files[file_name] = np.load(str(data_folder)+str(file_name)+'.npy', allow_pickle=True)
     return files
 
 # Save multiple numpy arrays
